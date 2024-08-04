@@ -1,0 +1,117 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+   background:linear-gradient(#fabf7e,#f9ece4);
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+#hero{
+     background-image: url(images/houston.jpg);
+     background-size: cover;
+     height: 343px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center; 
+     align-items: center;
+     text-align: center;
+     }
+.header{
+    text-shadow: 0px -2px 4px grey;
+    background-color: #9d3806;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-top: 0;
+}     
+.item-header{
+    background-color: #b67c4b;
+    margin-left: 20px;
+    margin-right: 20px ;
+   
+}
+.top3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+#rodeo{
+    width: 100px;
+    height: 100px;
+    background-image: url("images/rodeo.jpg");
+    background-size: cover;
+    border-radius: 50px;
+    margin: auto;
+}
+#rodeo:hover{
+    background: url("images/rodeo-h.gif");
+}
+#space-center{
+    width: 100px;
+    height: 100px;
+    background-image: url("images/space-center.jpg");
+    background-size: cover;
+    border-radius: 50px;
+    margin: auto;
+}
+#space-center:hover{
+    background: url("images/take-off.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#orbit{
+    width: 100px;
+    height: 100px;
+    background-image: url("images/orbit-p.jpg");
+    background-size: cover;
+    border-radius: 50px;
+    margin: auto;
+}
+#orbit:hover{
+    background: url(images/orbit.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 400px;
+    border: 2px solid #3d1402;
+    border-bottom: 10px solid #3d1402;
+    background-color: #9d3806;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+#me{
+    border-radius: 0;
+    border: 1px solid #3d1402;
+}
+.words{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+h1,h2,h3,p{
+    font-family: "space grotesk", sans-serif;
+}
